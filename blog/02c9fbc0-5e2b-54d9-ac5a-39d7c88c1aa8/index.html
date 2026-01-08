@@ -9,10 +9,9 @@
 <p>Data Lake and Data Warehouse are both used for aggregating multiple data sources, but they serve different purposes and have different architectures.</p>
 <p>A Data Warehouse (DWH) is a system that consolidates data from various sources into a single, centralized, and consistent storage solution. Its primary goal is to support data analysis, data mining, artificial intelligence, and machine learning, accommodating large volumes of data from all departments within an organization.
 In contrast, a Data Lake offers an alternative approach to storing and processing large volumes of data. Unlike a Data Warehouse, where data is pre-structured within a relational model and follows a defined schema, a Data Lake provides a space to store any type of data—structured (like relational database tables and Excel files), semi-structured (such as XML or JSON files, web pages), and unstructured (including images, audio files, and social media posts). This approach allows for the preservation of raw data without prior processing, offering flexibility for subsequent analysis.</p>
-<p><figure class="gatsby-resp-image-figure" style="">
-    <span
+<p><span
       class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; "
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
     >
       <a
     class="gatsby-resp-image-link"
@@ -25,44 +24,23 @@ In contrast, a Data Lake offers an alternative approach to storing and processin
     class="gatsby-resp-image-background-image"
     style="padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEe0lEQVR42nWTa1CUVRzGD5WTAqIrLMiKgqAsrCwsyFXkLvcFXGRAXMDiorKCIySpqNwMQZGLt10xRjTQnEal1NKRqbHLTDqTo+akqY1aOmX6pchqxj78et/lYjL24Znnf87/PL8z7znnFVNtC7BqUgEKO9mNz8cjPYVt4Uv6xuH+pJH8SC1cHUpxnVLGdNkdZC+zjuV5leROtm/iMrkEZ/tiq1TW3nB/2F+U8FBU4KGoRPbZVq/Ec9oaZk4xMcPBRMScJnRutQRImj+rHtXkVcway1SOZUdr4aOswUf5NrJrXNajdlrH7KlrCXavJzvUTLymiVC3RhJ8W0lV70bvZ0GnqsNTsRYf5xp8ndeP5IclAlzrGFY9GmUtQTMayQnrxhDShfe0CuxFNt6O1dIGdShECWrHtaRrd6HXdBPo2sg851p0Y4w6RKjbNsJmthCsakbvb8YY2UOAqho7m2xUr64mWt1C38bvCPHaSrL3PtylY3hdZDLfrYYluh6S5u6Tsu9YGTJLRHt0EjlzJ/p5B8iNMEugJTiJNwixb8XgfRQv5w00FAyyOW+QpmVfsiH3JBOEHnsbA46v50nQd0ny2s9C93Zklkj0shDnsZf8oGPEaBpwEWVE23YT6tjGiYbbBHk2og/byy7TJZqXX2Cw7Q5K23zsxGIJmsUidRsG337iPfeSKIFFhvoQqXN6KAw+gT6gk7minhk2VfgoajjV8IA95ZfxcHwLpd1qKjNOUpt7Fq1rDQ6vFDFR5JHi28VS7XHSvXvIUPcicjTvs1jdz4qIT0gPaGeKTSH5/kfZknqRhuyvuNz9lC3G87wmiqT3WYHB/zAded+yIvIEs6aaSNPsZrnuDNm+R8jRHEMU+H/IMu0AJcEfUxr+ERmz+zhQfp3dxVfJ9O+hrfAbTCkfSLe7maLw4+QHH8Gy8hqWVVfI0fZTHn2aooAzLPMfwCixRHHgOUqCzlGsO0dp0HmM2lOsiRmkJGoA5cRKQqeZKfQ7jTGoD51iGy4TqymNHqAi6jwFfqesmeLAs5TIHEnCFHKBUZWHfMammGu0JN8hS9tNrq6fWHcz7pNqmT5hDeGqneQF9pMqfWZH5j3WL7jCyvmfStnPxxiiOvwi1RGXqJK8LvIGfYZnNEX9ID3ydXgpV5CptZDldwiD9j3S5u2R5sqkv6SCzpSf6dX/RWPsbarCvrYyZJbYuPAao9q08Do7Eh7Sly9dxIIbhDhuw8luKXFz20j0bcfF3kikSztNcTfZn/aU1kV3qY+9ycbIq9SOMERDzC1pl1vILqs+5iYtCXfpyfqTXsPfmAK/INx1BwtU7VQFX8Kc9Bt7kp5Ia+6zJeoG9dHfW3ONI3nRmvAjz/UT2yXJi5tj79KV9guHpSPYGn4fs/4JR/KesT3+Ic1x92iJv8+ORQ+smf8yRGfyY7okveApw96R+IjOpMeYU3+nO2OIjuRHdCT9au2Nz43WwpL2B/+n/emyD2FJH5KgQ9K5jeu/pBYHM/+hV9Ko975snDVuPut5/+C4zL/uQmLUfcZTogAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
   ></span>
-  <picture>
-          <source
-              srcset="/static/c1a046459dd493a8822f8c347d36c20c/09011/ETL.avif 225w,
-/static/c1a046459dd493a8822f8c347d36c20c/e46ac/ETL.avif 450w,
-/static/c1a046459dd493a8822f8c347d36c20c/9b8d4/ETL.avif 900w,
-/static/c1a046459dd493a8822f8c347d36c20c/b1bd9/ETL.avif 1025w"
-              sizes="(max-width: 900px) 100vw, 900px"
-              type="image/avif"
-            /><source
-              srcset="/static/c1a046459dd493a8822f8c347d36c20c/d7e55/ETL.webp 225w,
-/static/c1a046459dd493a8822f8c347d36c20c/8626f/ETL.webp 450w,
-/static/c1a046459dd493a8822f8c347d36c20c/131f1/ETL.webp 900w,
-/static/c1a046459dd493a8822f8c347d36c20c/d1bdf/ETL.webp 1025w"
-              sizes="(max-width: 900px) 100vw, 900px"
-              type="image/webp"
-            />
-          <source
-            srcset="/static/c1a046459dd493a8822f8c347d36c20c/3684f/ETL.png 225w,
-/static/c1a046459dd493a8822f8c347d36c20c/fc2a6/ETL.png 450w,
-/static/c1a046459dd493a8822f8c347d36c20c/1cfc2/ETL.png 900w,
+  <img
+        class="gatsby-resp-image-image"
+        alt="Is it even worth it to create custom ETL anymore?"
+        title=""
+        src="/static/c1a046459dd493a8822f8c347d36c20c/fcda8/ETL.png"
+        srcset="/static/c1a046459dd493a8822f8c347d36c20c/12f09/ETL.png 148w,
+/static/c1a046459dd493a8822f8c347d36c20c/e4a3f/ETL.png 295w,
+/static/c1a046459dd493a8822f8c347d36c20c/fcda8/ETL.png 590w,
+/static/c1a046459dd493a8822f8c347d36c20c/efc66/ETL.png 885w,
 /static/c1a046459dd493a8822f8c347d36c20c/d0143/ETL.png 1025w"
-            sizes="(max-width: 900px) 100vw, 900px"
-            type="image/png"
-          />
-          <img
-            class="gatsby-resp-image-image"
-            src="/static/c1a046459dd493a8822f8c347d36c20c/1cfc2/ETL.png"
-            alt="Is it even worth it to create custom ETL anymore?"
-            title=""
-            loading="lazy"
-            decoding="async"
-            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-          />
-        </picture>
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
   </a>
-    </span>
-    <figcaption class="gatsby-resp-image-figcaption">Is it even worth it to create custom ETL anymore?</figcaption>
-  </figure></p>
+    </span></p>
 <h3>What is ETL?</h3>
 <p>ETL (Extract, Transform, Load) is a data integration process used to extract data from various sources, transform it into a consistent format, and then load it into a Data Warehouse for analysis and reporting.</p>
 <p>ETL data sources can vary widely, including:</p>
@@ -84,10 +62,9 @@ Web services: APIs, web scraping.</p>
 </ol>
 <p>Restaurants and cafes can use ETL processes to optimize delivery by integrating data from various sources such as their own websites and delivery platforms. This allows them to effectively manage couriers, reduce delivery times and improve customer experience.</p>
 <p>An alternative approach is ELT (Extract, Load, Transform), where data is first extracted, then loaded into a Data Lake, and subsequently transformed into the required format.</p>
-<p><figure class="gatsby-resp-image-figure" style="">
-    <span
+<p><span
       class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; "
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
     >
       <a
     class="gatsby-resp-image-link"
@@ -98,52 +75,26 @@ Web services: APIs, web scraping.</p>
   >
     <span
     class="gatsby-resp-image-background-image"
-    style="padding-bottom: 95.55555555555554%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAAD8UlEQVR42oVUW28bVRD2X4Vn3nhDSICIeEQIVagqRGoaitKgJFCigqpWqlolISRx49uud9d7v+/G3vVevHZi+2PmuEV9w9L4zJ6d/Wa+ubWapoGqqpBlGYqiYDgcwjRNOI4DTdPQ7/cxHo/Bv/V6jf/7tfI8h+d5sCwLtm3DMAyhM6DruuLMsgxVVSHPJ8inGZIkQpLGiOIQMcmU7vhdURRo8ce9Xg/7+/s4Pj7GwcEBjo6OxMlyenoK3/fJiY32ZQ+9awUHvx7jl5/3sbuzh73Hh+h3VFxf9QWzVhAEqOsaZVmSp6mgz1Q5KvZYlhXiJIQmBRhcTNC9MoV0TiZov06hDAL02iYuXgXoXwVoxXGM5XIpgBh4NBqJFDAg01+t1khvIqj9GJ45RVmPcZP58PQZtG4G3ZJxuyrpuUbn7xCtKIrooxX4nM1mIioG5mjZGQMmaQSlF8FWagReDNcJ4GlL9M8nUIc6ymkNvVeje06AXAjmznniqMIwFMKAfOq6AT9wMOxEGJyX0IcJTDVF980M0tkckVvAswrI53O0T/xNUQaDgQB9T5N1BmRn3Daua0OXb6BSvsYZVXjswRzmiK01imaCxd0YibMiysEGkHuQAebzuWgVvmPanAJZHiJKqaX0CKZcoCoa5FkBrVPBlpa4qxusmhqeusT12QeAHE0UUW48Bw5FxJW1bReGLeHgXoqfPsshXTtQ+gHRjtG7CNC98KHJEYZ01z6zSHc2gDwdi8UC07wiyhYMylsQRBTxHbxwhL1vb/Do6xyG04VlG5g1FJ2jkz5CQ7pl65DkrkhNyzItqJqCWXWLPx8A21/5ePCFiaPv7pAlK4x0lUB16KqHyxMDaZrSVEwhSzIGfUn0aUHC7WYSVov/NAIspwvc/7TG1kcGtj5W8P0n1NDOLRRVovcqOv8EuHjtUGQ2FS8HjyyDz4nZetXgfbcIytJAgu9RbjQH+sjaCOme61M6FOo7F37oEBNJtJLremTvEwjNO82671JbKaooZos9up4B3VSoAEM4ng7TVmA5Kp0qPRubRUHTw3nTDQUjgzaSrcGw1HffaWTHG8reTMrViwbPd0sE+gonvzckNUJjheOHPi5fZlTxWEzS9asGf+0UCMnu9GmDN4c1InONZ48oHS8mYrIIMMbzxxl2v0mhtW/x2w8Znt6fQLta48fPPTx7mNK6ihGT3csnOXa2Yoze3pFNjsN7Y+hv19j+MsAf2wnZJGi5xJ93WhInSMc0BeSFAdKbEFEYU858sSx836P9F9D7VCwLjjpOknd2CdlxD7tozZs5Lc8SVV2JFqjpFM//6ZXo0fl8Ie7f39XVB3azzR1P2r+PUWFSjhE+IgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    style="padding-bottom: 95.27027027027027%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAAD8UlEQVR42oVUW28bVRD2X4Vn3nhDSICIeEQIVagqRGoaitKgJFCigqpWqlolISRx49uud9d7v+/G3vVevHZi+2PmuEV9w9L4zJ6d/Wa+ubWapoGqqpBlGYqiYDgcwjRNOI4DTdPQ7/cxHo/Bv/V6jf/7tfI8h+d5sCwLtm3DMAyhM6DruuLMsgxVVSHPJ8inGZIkQpLGiOIQMcmU7vhdURRo8ce9Xg/7+/s4Pj7GwcEBjo6OxMlyenoK3/fJiY32ZQ+9awUHvx7jl5/3sbuzh73Hh+h3VFxf9QWzVhAEqOsaZVmSp6mgz1Q5KvZYlhXiJIQmBRhcTNC9MoV0TiZov06hDAL02iYuXgXoXwVoxXGM5XIpgBh4NBqJFDAg01+t1khvIqj9GJ45RVmPcZP58PQZtG4G3ZJxuyrpuUbn7xCtKIrooxX4nM1mIioG5mjZGQMmaQSlF8FWagReDNcJ4GlL9M8nUIc6ymkNvVeje06AXAjmznniqMIwFMKAfOq6AT9wMOxEGJyX0IcJTDVF980M0tkckVvAswrI53O0T/xNUQaDgQB9T5N1BmRn3Daua0OXb6BSvsYZVXjswRzmiK01imaCxd0YibMiysEGkHuQAebzuWgVvmPanAJZHiJKqaX0CKZcoCoa5FkBrVPBlpa4qxusmhqeusT12QeAHE0UUW48Bw5FxJW1bReGLeHgXoqfPsshXTtQ+gHRjtG7CNC98KHJEYZ01z6zSHc2gDwdi8UC07wiyhYMylsQRBTxHbxwhL1vb/Do6xyG04VlG5g1FJ2jkz5CQ7pl65DkrkhNyzItqJqCWXWLPx8A21/5ePCFiaPv7pAlK4x0lUB16KqHyxMDaZrSVEwhSzIGfUn0aUHC7WYSVov/NAIspwvc/7TG1kcGtj5W8P0n1NDOLRRVovcqOv8EuHjtUGQ2FS8HjyyDz4nZetXgfbcIytJAgu9RbjQH+sjaCOme61M6FOo7F37oEBNJtJLremTvEwjNO82671JbKaooZos9up4B3VSoAEM4ng7TVmA5Kp0qPRubRUHTw3nTDQUjgzaSrcGw1HffaWTHG8reTMrViwbPd0sE+gonvzckNUJjheOHPi5fZlTxWEzS9asGf+0UCMnu9GmDN4c1InONZ48oHS8mYrIIMMbzxxl2v0mhtW/x2w8Znt6fQLta48fPPTx7mNK6ihGT3csnOXa2Yoze3pFNjsN7Y+hv19j+MsAf2wnZJGi5xJ93WhInSMc0BeSFAdKbEFEYU858sSx836P9F9D7VCwLjjpOknd2CdlxD7tozZs5Lc8SVV2JFqjpFM//6ZXo0fl8Ie7f39XVB3azzR1P2r+PUWFSjhE+IgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
   ></span>
-  <picture>
-          <source
-              srcset="/static/33e779e48c586cee01d04534c085039e/09011/bigdata.avif 225w,
-/static/33e779e48c586cee01d04534c085039e/e46ac/bigdata.avif 450w,
-/static/33e779e48c586cee01d04534c085039e/9b8d4/bigdata.avif 900w,
-/static/33e779e48c586cee01d04534c085039e/2b009/bigdata.avif 1350w,
-/static/33e779e48c586cee01d04534c085039e/2eb22/bigdata.avif 1800w,
-/static/33e779e48c586cee01d04534c085039e/1db77/bigdata.avif 2953w"
-              sizes="(max-width: 900px) 100vw, 900px"
-              type="image/avif"
-            /><source
-              srcset="/static/33e779e48c586cee01d04534c085039e/d7e55/bigdata.webp 225w,
-/static/33e779e48c586cee01d04534c085039e/8626f/bigdata.webp 450w,
-/static/33e779e48c586cee01d04534c085039e/131f1/bigdata.webp 900w,
-/static/33e779e48c586cee01d04534c085039e/e5c51/bigdata.webp 1350w,
-/static/33e779e48c586cee01d04534c085039e/62ed8/bigdata.webp 1800w,
-/static/33e779e48c586cee01d04534c085039e/83e37/bigdata.webp 2953w"
-              sizes="(max-width: 900px) 100vw, 900px"
-              type="image/webp"
-            />
-          <source
-            srcset="/static/33e779e48c586cee01d04534c085039e/3684f/bigdata.png 225w,
-/static/33e779e48c586cee01d04534c085039e/fc2a6/bigdata.png 450w,
-/static/33e779e48c586cee01d04534c085039e/1cfc2/bigdata.png 900w,
-/static/33e779e48c586cee01d04534c085039e/21482/bigdata.png 1350w,
-/static/33e779e48c586cee01d04534c085039e/d61c2/bigdata.png 1800w,
+  <img
+        class="gatsby-resp-image-image"
+        alt="Data Lake vs Data Warehouse"
+        title=""
+        src="/static/33e779e48c586cee01d04534c085039e/fcda8/bigdata.png"
+        srcset="/static/33e779e48c586cee01d04534c085039e/12f09/bigdata.png 148w,
+/static/33e779e48c586cee01d04534c085039e/e4a3f/bigdata.png 295w,
+/static/33e779e48c586cee01d04534c085039e/fcda8/bigdata.png 590w,
+/static/33e779e48c586cee01d04534c085039e/efc66/bigdata.png 885w,
+/static/33e779e48c586cee01d04534c085039e/c83ae/bigdata.png 1180w,
 /static/33e779e48c586cee01d04534c085039e/b55e6/bigdata.png 2953w"
-            sizes="(max-width: 900px) 100vw, 900px"
-            type="image/png"
-          />
-          <img
-            class="gatsby-resp-image-image"
-            src="/static/33e779e48c586cee01d04534c085039e/1cfc2/bigdata.png"
-            alt="Data Lake vs Data Warehouse"
-            title=""
-            loading="lazy"
-            decoding="async"
-            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-          />
-        </picture>
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
   </a>
-    </span>
-    <figcaption class="gatsby-resp-image-figcaption">Data Lake vs Data Warehouse</figcaption>
-  </figure></p>
+    </span></p>
 <h3>Popular Modern ETL Tools in the Market</h3>
 <p>Thanks to those tools you can monitor workflows, also they provide data integration, data quality, and master data management.</p>
 <ul>
@@ -170,6 +121,6 @@ Web services: APIs, web scraping.</p>
           <script
             id="gatsby-chunk-mapping"
           >
-            window.___chunkMapping="{\"app\":[\"/app-74fa5e9df415cf1568cf.js\"],\"component---src-pages-templates-404-tsx\":[\"/component---src-pages-templates-404-tsx-713a765e77ae70552789.js\"],\"component---src-pages-templates-blog-by-author-tsx\":[\"/component---src-pages-templates-blog-by-author-tsx-e398f56cabd2d5b4bf30.js\"],\"component---src-pages-templates-blog-by-hashtag-tsx\":[\"/component---src-pages-templates-blog-by-hashtag-tsx-0d269fd34490ce785817.js\"],\"component---src-pages-templates-blog-tsx\":[\"/component---src-pages-templates-blog-tsx-6d133f958f4aa1dd3e09.js\"],\"component---src-pages-templates-index-tsx\":[\"/component---src-pages-templates-index-tsx-48aab7e45cb2fbb656f1.js\"],\"component---src-pages-templates-policies-tsx\":[\"/component---src-pages-templates-policies-tsx-2a36ab309e2119501cd1.js\"],\"component---src-pages-templates-post-tsx\":[\"/component---src-pages-templates-post-tsx-bfcefbb87b2917b7ba9c.js\"],\"component---src-pages-templates-project-tsx\":[\"/component---src-pages-templates-project-tsx-e370703c61bf761adc99.js\"],\"component---src-pages-templates-projects-tsx\":[\"/component---src-pages-templates-projects-tsx-1f6209b751291f2a4207.js\"],\"component---src-pages-templates-revit-tsx\":[\"/component---src-pages-templates-revit-tsx-37abd1ac251c35a1dc80.js\"],\"component---src-pages-templates-services-tsx\":[\"/component---src-pages-templates-services-tsx-3bbacb2291a679ef5bc8.js\"],\"component---src-pages-templates-workflow-tsx\":[\"/component---src-pages-templates-workflow-tsx-3ef21aecf7b4d3f46e95.js\"]}";
+            window.___chunkMapping="{\"app\":[\"/app-e12e21437c126cbd7140.js\"],\"component---src-pages-templates-404-tsx\":[\"/component---src-pages-templates-404-tsx-713a765e77ae70552789.js\"],\"component---src-pages-templates-blog-by-author-tsx\":[\"/component---src-pages-templates-blog-by-author-tsx-e398f56cabd2d5b4bf30.js\"],\"component---src-pages-templates-blog-by-hashtag-tsx\":[\"/component---src-pages-templates-blog-by-hashtag-tsx-0d269fd34490ce785817.js\"],\"component---src-pages-templates-blog-tsx\":[\"/component---src-pages-templates-blog-tsx-6d133f958f4aa1dd3e09.js\"],\"component---src-pages-templates-index-tsx\":[\"/component---src-pages-templates-index-tsx-48aab7e45cb2fbb656f1.js\"],\"component---src-pages-templates-policies-tsx\":[\"/component---src-pages-templates-policies-tsx-2a36ab309e2119501cd1.js\"],\"component---src-pages-templates-post-tsx\":[\"/component---src-pages-templates-post-tsx-bfcefbb87b2917b7ba9c.js\"],\"component---src-pages-templates-project-tsx\":[\"/component---src-pages-templates-project-tsx-61b4c834514ed4f6c6a0.js\"],\"component---src-pages-templates-projects-tsx\":[\"/component---src-pages-templates-projects-tsx-1f6209b751291f2a4207.js\"],\"component---src-pages-templates-revit-tsx\":[\"/component---src-pages-templates-revit-tsx-37abd1ac251c35a1dc80.js\"],\"component---src-pages-templates-services-tsx\":[\"/component---src-pages-templates-services-tsx-3bbacb2291a679ef5bc8.js\"],\"component---src-pages-templates-workflow-tsx\":[\"/component---src-pages-templates-workflow-tsx-3ef21aecf7b4d3f46e95.js\"]}";
           </script>
-        <script>window.___webpackCompilationHash="6ff6c092127fab4c4981";</script><script src="/webpack-runtime-9091de6d8f53971b6e00.js" async></script><script src="/framework-6ef39188240a74bfe130.js" async></script><script src="/app-74fa5e9df415cf1568cf.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
+        <script>window.___webpackCompilationHash="5410490c6a8255b4a858";</script><script src="/webpack-runtime-a26ca71f55c4b4f246d9.js" async></script><script src="/framework-6ef39188240a74bfe130.js" async></script><script src="/app-e12e21437c126cbd7140.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
